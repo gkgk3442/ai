@@ -16,6 +16,9 @@
     }
 ```
 ```sh
+claude mcp add context7 --scope user npx -- -y @upstash/context7-mcp@latest
+```
+```sh
 기억해둬, 학습하지 않은 정보나 최신 라이브러리/프레임워크 관련 문의 시 항상 context7 MCP를 사용하여 정보를 확인해
 ```
 
@@ -30,6 +33,9 @@
     }
 ```
 ```sh
+claude mcp add sequential-thinking --scope user npx -- -y @modelcontextprotocol/server-sequential-thinking
+```
+```sh
 기억해둬, 복잡한 문제 해결이나 깊은 사고가 필요한 작업에는 항상 sequential-thinking MCP를 사용하여 논리적이고 단계적으로 접근해
 ```
 
@@ -42,4 +48,7 @@
         "@executeautomation/playwright-mcp-server"
       ]
     }
+```
+```sh
+claude mcp add playwright --scope user npx -- -y @executeautomation/playwright-mcp-server
 ```
